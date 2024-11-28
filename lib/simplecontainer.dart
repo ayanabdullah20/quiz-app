@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SimpleContainer extends StatelessWidget {
   const SimpleContainer( this.startquiz, {super.key});
@@ -25,10 +26,10 @@ class SimpleContainer extends StatelessWidget {
             const SizedBox(
               height: 80,
             ),
-            const Text(
+             Text(
               'Learn Airdrops for Free',
-              style: TextStyle(
-                color: Color.fromARGB(255, 217, 194, 249),
+              style: GoogleFonts.lato(
+                color:const  Color.fromARGB(255, 217, 194, 249),
                 fontSize: 26,
               ),
             ),

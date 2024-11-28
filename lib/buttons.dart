@@ -9,15 +9,14 @@ class AnswerButton extends StatelessWidget {
   Widget build(BuildContext context) {
     String text;
     return ElevatedButton(
-      onPressed: () {}, 
+      onPressed: whentapped,
       style: ElevatedButton.styleFrom(
         backgroundColor: const Color.fromARGB(255, 8, 0, 255),
         foregroundColor: Colors.white,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
-        padding: const EdgeInsets.symmetric(vertical: 10,horizontal: 40),
+        padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 40),
       ),
-      child: Text(stext),
-      );
-      
+      child: Text(stext, textAlign: TextAlign.center),
+    );
   }
 }
